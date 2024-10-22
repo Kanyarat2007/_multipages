@@ -1,0 +1,47 @@
+p {
+    line-height: 2.5rem;
+}
+
+.home-container {
+    height: 640px;
+    margin: 0px auto;
+}
+
+.home-title {
+    text-align: center;
+}
+
+.home-components {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 20px;
+    padding: 1rem;
+}
+
+.hello {
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+img {
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    margin: 2rem;
+}
+
+.details {
+    padding: 2rem;
+}
+
+.details p {
+    font-size: 20px;
+}
+
+.about-me {
+    border: 1px solid;
+    border-radius: 0.5rem;
+
+    padding: 2rem;
+}
